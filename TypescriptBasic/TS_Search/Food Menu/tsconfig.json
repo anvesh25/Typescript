@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "dist2",
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016"
+        ],
+        "sourceMap": true
+    },
+    "files": [
+        //"src/*.ts",
+        "Menu.ts"
+    ],
+    "compileOnSave": true
+}

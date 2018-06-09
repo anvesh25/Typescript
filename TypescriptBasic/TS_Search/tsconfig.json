@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "dist1",
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016",
+            "es2016.array.include"
+        ]
+    },
+    "files": [
+        //"src/*.ts",
+        "App.ts"
+    ],
+    "compileOnSave": true
+}
