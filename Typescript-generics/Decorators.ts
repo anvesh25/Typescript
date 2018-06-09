@@ -37,15 +37,15 @@ a6.Dog();
 a7.wall();
 
 
-function abc(x,y)
-{
-    console.log(this.myname);
-}
-var obj ={
-    myname: 'anvesh';
-}
+//function abc(x,y)
+//{
+    //console.log(this.myname);
+//}
+//var obj ={
+    //myname: 'anvesh';
+//}
 
-obj.abc('myname');
+//obj.abc('myname');
 
 
 //Closure example
@@ -64,3 +64,29 @@ const innerfn2 = parent();
 innerfn2();
 innerfn();
 innerfn2();
+
+//Pass by value and Pass by reference
+//object is an pass by reference
+//premitive data type are pass by values.
+
+// ...a is a spread operator
+const a ={}
+const b=a;
+b.prop1='hello';
+console.log(a);
+
+
+const z ={
+    myvar:'fhjk',
+    another:'ghfjk'
+};
+const y={
+    ...z,
+    newprop:'hjkl'
+};
+console.log(b);
+
+
+
+
+
