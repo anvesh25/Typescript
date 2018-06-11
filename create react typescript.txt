@@ -1,0 +1,10 @@
+https://github.com/wmonk/create-react-app-typescript
+
+//to install react
+npm install -g create-react-app
+
+create-react-app my-app --scripts-version=react-scripts-ts
+cd my-app/
+
+//Once we run bwlow command it will launch browser server automatically
+npm start 
