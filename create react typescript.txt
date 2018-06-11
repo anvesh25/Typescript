@@ -14,3 +14,13 @@ npm start
 npm run eject
 
 npm run start
+
+
+{this.state.title} 
+        <button onClick={this.onCLickOfBtm}>Click me</button>
+
+
+File -> Preferences -> settings
+{
+    "typescript.tsdk":"C:\\Users\\slk.WSLK1GFTR4P-09\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib"
+}
