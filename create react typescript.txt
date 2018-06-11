@@ -8,3 +8,9 @@ cd my-app/
 
 //Once we run bwlow command it will launch browser server automatically
 npm start 
+
+//To see all the hiden webpack services use below command
+
+npm run eject
+
+npm run start
