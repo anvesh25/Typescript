@@ -1,0 +1,26 @@
+https://github.com/wmonk/create-react-app-typescript
+
+//to install react
+npm install -g create-react-app
+
+create-react-app my-app --scripts-version=react-scripts-ts
+cd my-app/
+
+//Once we run bwlow command it will launch browser server automatically
+npm start 
+
+//To see all the hiden webpack services use below command
+
+npm run eject
+
+npm run start
+
+
+{this.state.title} 
+        <button onClick={this.onCLickOfBtm}>Click me</button>
+
+
+File -> Preferences -> settings
+{
+    "typescript.tsdk":"C:\\Users\\slk.WSLK1GFTR4P-09\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib"
+}
