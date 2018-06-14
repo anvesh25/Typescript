@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './App.css';
-import PurchaseCalculator from 'G://ReacJs//Typescript//financial-calculator//components//purchase-calculator//index';
+import PurchaseCalculator from './components/Purchase-calculator/index';
 
 import logo from './/logo.svg';
 
@@ -13,7 +13,7 @@ class App extends React.Component {
           <h1 className="App-title">Financial Calculator</h1>
         </header>
         <p className="App-intro">
-          purchasecalculator 
+          <PurchaseCalculator /> 
         </p>
       </div>
     );
